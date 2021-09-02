@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <h3><a href ="https://tanushreeb.vercel.app/">GO TO WEBSITE</a></h3>
+  <h3 align ="center"><a href ="https://tanushreeb.vercel.app/">GO TO WEBSITE</a></h3>
 </h2>
 
 
