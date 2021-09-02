@@ -21,8 +21,6 @@ My personal portfolio <a href="" target="_blank">portfolio</a> which features so
 This project was built using these technologies.
 
 - React.js
-- Node.js
-- Express.js
 - CSS3
 - VsCode
 - Vercel
