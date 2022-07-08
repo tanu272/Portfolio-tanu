@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-import pdf from "../../Assets/Tanushree Bhattacharya Resume (2).pdf";
+import pdf from "../../Assets/Tanushree Bhattacharya Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -22,34 +22,26 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
+              title="SWE Intern at Microsoft:"
+              date="May 2022 - June 2022"
+              content={[
+                "Integrated a new feature into Microsoft’s substrate search to help users search files and recordings related to meetings through meeting-related keywords to improve overall user experience and enhance the business relevance of meeting-related searches by 93%.",
+                "Improved accuracy of Search Answers by analyzing user responses through E2E testing.",
+              ]}
+            />
+            <Resumecontent
+              title="Frontend Developer Intern at FarziEnginner "
+              date="September 2020 - November 2020"
+              content={[
+                "Worked closely witCollaborated with various business clients to build and fix bugs in various e-commerce platforms like Lotus, Plix, MamaEarth, and so on.h clients to collect requirements, create over 15 web pages, and improve the quality of existing web pages and apps.",
+                "Built custom dynamic Shopify theme as per Figma design with Vanilla JS, CSS, Bootstrap, and ReactJS as required.",
+              ]}
+            />
+            <Resumecontent
               title="Mentor at Codess.Cafe:"
-              date="June 2021 - Present"
+              date="August 2021 - Present"
               content={[
-                "Trained juniors and freshmen for interview preparation for scholarships and internships, with priority towards DSA and development.",
-              ]}
-            />
-            <Resumecontent
-              title="Freelance (Frontend Developer  - ReactJs, BootStrap and React Native)"
-              date="June 2020 - September 2020"
-              content={[
-                "Worked closely with clients to collect requirements, create over 15 web pages, and improve the quality of existing web pages and apps.",
-                "Delivered products that meet the expected standards, within the deadline.",
-              ]}
-            />
-            <Resumecontent
-              title="Web-Developer [Entrepreneurship Cell, NIT Durgapur and Debating Society, NIT Durgapur]"
-              date="October 2019 - Present"
-              content={[
-                "Collaborated with other club members on projects, events, and mentoring juniors.",
-                "Conducted coding workshop with over 500 people and coordinated the ensuing QnA session.",
-              ]}
-            />
-            <Resumecontent
-              title="Editor-in-Chief  [My_Realms(Writes Section)]"
-              date="August 2020 - Present"
-              content={[
-                "Managed and edited articles at My_Realms, a budding community of writers, photographers, and artists, since September 2020.",
-                "Partnered with a group of 20+ people from all over the country to create an easy stage for upcoming creators to showcase their talents.",
+                "Guided 10 college sophomores from all over India for internship opportunities, with priority towards DSA, competitive programming and interview preparation.",
               ]}
             />
           </Col>
@@ -59,7 +51,7 @@ function Resume() {
             <Resumecontent
               title="B.Tech Degree in Electronics and Communication [National Institute of Technology, Durgapur] "
               date="2019 - Present"
-              content={[`CGPA: 8.75 (Till 4th Sem)`]}
+              content={[`CGPA: 8.8 (Till 6th Sem)`]}
             />
             <Resumecontent
               title="12TH BOARD (AISSCE) [Sushila Birla Girls' School, Kolkata]"
@@ -75,14 +67,12 @@ function Resume() {
             <Resumecontent
               title=""
               content={[
-                "Incoming Intern at Microsoft India for summer 2022.",
+                "Recipient of Grace Hopper Scholarship for the year 2022.",
                 "Qualified as one of the top 26 teams for Amazon HackOn 2021.",
-                "Qualified for the Final round of Facebook Hacker Cup 2020 and the first round of Google Codejam 2021.",  
-                "Completed Hactoberfest arranged by Digital Ocean twice in the years 2019 and 2020.", 
-                "Codechef 4-star and Codeforces Apprentice.", 
+                "Finalist for of Facebook Hacker Cup 2020.",  
+                "GirlsScript Winter of Coding Mentor for 2021 session.",
                 "NTSE Scholar 2017.",
                 "JEE Main 2019 score of 98.7 percentile among 9+ lakh candidates and JEE Advanced rank of 8095.",
-                "GirlsScript Winter of Coding Mentor for 2021 session.",
               ]}
             />
           </Col>

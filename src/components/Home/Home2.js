@@ -24,13 +24,13 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> C++, C, and Javascript. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Software and Web Products</b> and
                 also in areas related to{" "}
                 <b className="purple">
                   Competitive Programming and Machine Learning.
@@ -39,7 +39,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">Python</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -48,7 +48,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js ans Next.js</b>
+                <b className="purple"> React.js .</b>
               </i>
             </p>
           </Col>

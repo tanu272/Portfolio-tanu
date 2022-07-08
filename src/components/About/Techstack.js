@@ -8,8 +8,9 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiSqllite,
 } from "react-icons/di";
-import { SiNativescript, SiNextDotJs, SiDjango } from "react-icons/si";
+import { SiNativescript, SiNextDotJs, SiDjango, SiCsharp } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -21,28 +22,25 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiSqllite />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDjango />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNativescript/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextDotJs />
+        <SiCsharp/>
       </Col>
     </Row>
   );
