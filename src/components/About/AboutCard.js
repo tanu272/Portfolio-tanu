@@ -12,7 +12,7 @@ function AboutCard() {
             - an aspiring software developer from <span className="purple"> Kolkata, India.</span> 
             <br />I have experience in <span className="purple">software development, mobile app creation, front-end/back-end web development</span> and <span className="purple">graphic designing</span> through various hackathons, freelancing as well as interning in a few companies, including Microsoft. 
             <br />I love to explore new technologies and find innovative solutions to user's problems.
-            <br />Currently I'm pursuing a final year student pursuing B.Tech in Electronics and Communication Engineering from NIT Durgapur.
+            <br />Currently I'm a final year student pursuing a B.Tech degree in Electronics and Communication Engineering from National Institute of Technology Durgapur.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
